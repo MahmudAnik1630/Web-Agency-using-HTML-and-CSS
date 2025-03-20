@@ -721,8 +721,13 @@ html {
         width: 80%;
         margin: 15px 0;
     }
+
+
+    /* hero  */
+
+    
     .hero-content {
-        margin-top: 80px;
+        margin-top: 180px;
      }
     
     .welcome-text {

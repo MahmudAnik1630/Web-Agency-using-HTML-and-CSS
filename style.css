@@ -834,6 +834,10 @@ html {
     flex-direction: column;
     }
 
+    .form-group:nth-child(1), .form-group:nth-child(2), .form-group:nth-child(3) {
+        width: 100%;
+    }
+
     h1 {
         font-size: 24px;
         margin-bottom: 20px;

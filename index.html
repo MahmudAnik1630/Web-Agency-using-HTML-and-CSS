@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Agency</title>
+</head>
+<body>
+    <div class="hero-container">
+        <img src="computer.jpg" alt="Computer" class="hero-image">
+        <div class="overlay"></div>
+        
+        <header>
+            <div class="logo">WEB-AGENCY</div>
+            <div class="mobile-menu-toggle" onclick="toggleMenu()">☰</div>
+            <div class="menu-container" id="menuContainer">
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#clients">Clients</a></li>
+                    <li><a href="#Contact" class="contact-link">Contact</a></li>
+                </ul>
+                <div class="profile-icon">👤</div>
+                <input type="text" class="search-bar" placeholder="Search...">
+            </div>
+        </header>
+        
+        <div class="hero-content">
+            <h2 class="welcome-text">welcome to</h2>
+            <h1 class="agency-name">web agency</h1>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <button class="cta-button">Contact us</button>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            const menuContainer = document.getElementById('menuContainer');
+            menuContainer.classList.toggle('active');
+        }
+    </script>
+
+  <!-- wwd  -->
+
+<section class="wwd" >
+    <h1 class="wwd-title">What We Do</h1>
+    <p class="wwd-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+    
+    <div class="wwd-boxes">
+        <div class="wwd-box">
+            <img src="1.jpeg" alt="Web Design" class="wwd-box-image">
+            <div class="wwd-box-overlay">
+                <h3 class="wwd-box-title">Web Design</h3>
+                <p class="wwd-box-text">Creative and responsive designs</p>
+            </div>
+        </div>
+        
+        <div class="wwd-box">
+            <img src="2.jpg" alt="Web Development" class="wwd-box-image">
+            <div class="wwd-box-overlay">
+                <h3 class="wwd-box-title">Web Development</h3>
+                <p class="wwd-box-text">Custom code solutions</p>
+            </div>
+        </div>
+        
+        <div class="wwd-box">
+            <img src="3.jpeg" alt="Mobile Apps" class="wwd-box-image">
+            <div class="wwd-box-overlay">
+                <h3 class="wwd-box-title">Mobile Apps</h3>
+                <p class="wwd-box-text">iOS and Android development</p>
+            </div>
+        </div>
+        
+        <div class="wwd-box">
+            <img src="4.jpg" alt="UI/UX Design" class="wwd-box-image">
+            <div class="wwd-box-overlay">
+                <h3 class="wwd-box-title">UI/UX Design</h3>
+                <p class="wwd-box-text">User-centered experiences</p>
+            </div>
+        </div>
+        
+        <div class="wwd-box">
+            <img src="5.jpg" alt="Digital Marketing" class="wwd-box-image">
+            <div class="wwd-box-overlay">
+                <h3 class="wwd-box-title">Digital Marketing</h3>
+                <p class="wwd-box-text">Growth strategies</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="wwa" id="About">
+    <div class="wwa-container">
+        <div class="wwa-image-container">
+            <img src="wwa.jpg" alt="Who We Are" class="wwa-image">
+        </div>
+        <div class="wwa-content">
+            <h1 class="wwa-title">WHO WE ARE?</h1>
+            <p class="wwa-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+            <button class="wwa-button">Read More</button>
+        </div>
+    </div>
+</section>
+
+<section class="creative-work" id="Services">
+    <h1>Creative Work</h1>
+    <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+    
+    <div class="image-grid">
+        <div class="image image-1">
+            <img src="c11.jpg" alt="Image 1">
+        </div>
+        <div class="image image-2">
+            <img src="c12.jpg" alt="Image 2">
+        </div>
+        <div class="image image-3">
+            <img src="c13.jpeg" alt="Image 3">
+        </div>
+        <div class="image image-4">
+            <img src="c14.jpg" alt="Image 4">
+        </div>
+        <div class="image image-5">
+            <img src="c15.jpg" alt="Image 5">
+        </div>
+        <div class="image image-6">
+            <img src="c16.jpg" alt="Image 6">
+        </div>
+    </div>
+</section>
+
+
+<section class="clients" id="clients">
+
+
+    <div class="blankclients">
+        <h1 class="blankclintsh1">Our Clients</h1>
+
+    </div>
+
+
+    <div class="clientsbody">
+        <div class="client-container">
+            <div class="client-image-gallery">
+                <!-- Image 1 -->
+                <div class="client-image-item">
+                    <img src="c1.png" alt="Client 1">
+                </div>
+                
+                <!-- Image 2 -->
+                <div class="client-image-item">
+                    <img src="c2.jpg">
+                </div>
+                
+                <!-- Image 3 -->
+                <div class="client-image-item">
+                    <img src="c3.png">
+                </div>
+                
+                <!-- Image 4 -->
+                <div class="client-image-item">
+                    <img src="c4.png" alt="Client 4">
+                </div>
+                
+                <!-- Image 5 -->
+                <div class="client-image-item">
+                    <img src="c5.png" alt="Client 5">
+                </div>
+                
+                <!-- Image 6 -->
+                <div class="client-image-item">
+                    <img src="c6.png" alt="Client 6">
+                </div>
+                
+               
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="form-body" id="Contact">
+    <div class="form-container">
+        <h1>Request A Call Back</h1>
+        <form>
+            <div class="form-content">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Mahmud Ul Hasan Anik. All Rights Reserved.</p>
+</footer>
+   
+</body>
+</html>

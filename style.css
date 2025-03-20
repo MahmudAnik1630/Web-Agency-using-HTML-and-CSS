@@ -812,6 +812,17 @@ html {
     }
 
 
+    /* clients  */
+
+    
+
+    .client-image-gallery {
+        gap: 40px; 
+        width: calc(100% / 3 -10px);
+        margin-bottom: 50px;
+    }
+
+
     /* form  */
 
     .form-container{
